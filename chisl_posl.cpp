@@ -1,9 +1,8 @@
-// chisl_posl.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
 #include "conio.h"
 #include "math.h"
+#include "stdio.h"
+
+
 bool check(bool mas[10]){
 	if (mas[0] == true && mas[1] == true && mas[2] == true && mas[3] == true && mas[4] == true && mas[5] == true && mas[6] == true && mas[7] == true && mas[8] == true && mas[9] == true)
 		return true;
@@ -37,7 +36,7 @@ void testing(long long N){
 
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	testing(0);
 	testing(1234567890);
